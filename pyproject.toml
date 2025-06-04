@@ -23,7 +23,7 @@ dependencies = [
     "nest_asyncio",
     "docker",
     "aiohttp",
-    "playwright==1.51",
+    "playwright==1.52.0",
     "tldextract",
     "loguru",
     "pydantic",
