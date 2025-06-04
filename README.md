@@ -67,6 +67,8 @@ npm run start
 
 ---
 
+Now the customized frontend should be running at http://localhost:8000
+
 ## 📦 Repo Structure
 
 - `app/` – Backend logic (FastAPI)  
