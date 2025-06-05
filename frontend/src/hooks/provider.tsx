@@ -27,7 +27,8 @@ export const appContext = React.createContext<AppContextType>(
 const Provider = ({ children }: any) => {
   const storedValue = getLocalStorage("darkmode", false);
   const [darkMode, setDarkMode] = useState(
-    storedValue === null ? "dark" : storedValue === "dark" ? "dark" : "light"
+    // storedValue === null ? "dark" : storedValue === "dark" ? "dark" : "light"
+    "light"
   );
 
   const logout = () => {
@@ -38,8 +39,8 @@ const Provider = ({ children }: any) => {
   };
 
   const updateDarkMode = (darkMode: string) => {
-    setDarkMode(darkMode);
-    setLocalStorage("darkmode", darkMode, false);
+    setDarkMode("light");
+    setLocalStorage("darkmode", "light", false);
   };
 
   // Modify logic here to add your own authentication
