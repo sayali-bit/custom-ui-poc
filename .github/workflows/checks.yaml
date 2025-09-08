@@ -22,7 +22,7 @@ jobs:
         with:
           enable-cache: true
           version: "0.5.18"
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
       - run: uv sync --all-extras
@@ -43,7 +43,7 @@ jobs:
         with:
           enable-cache: true
           version: "0.5.18"
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
       - run: uv sync --all-extras
@@ -62,7 +62,7 @@ jobs:
         with:
           enable-cache: true
           version: "0.5.18"
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
       - run: uv sync --all-extras
@@ -80,7 +80,7 @@ jobs:
         with:
           enable-cache: true
           version: "0.5.18"
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
       - run: uv sync --all-extras
